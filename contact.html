@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css"/>
-    
 </head>
-
-<body>
-    <h1 id="header1">Monica Medina</h1>  
+<h1 id="header1">Monica Medina</h1> 
+<body class="body2">
     <h1>
         <div class="links">
             <li><a href="index.html" class="links">Home</a></li>
@@ -19,19 +17,26 @@
             <li><a href="contact.html" class="links">Contact</a></li>
         </div>
      </h1>
-    
-     <h2>
-       <div class="intro">Student, Leader & Future Developer</div>
-        
-       <div id="bioContainer">
-           <img src="MoSnow.jpeg" alt="MoSnow" height="500em" width="400em" class="image">
-           <div class="bio">I yearn to become a well-rounded Fullstack Developer. I am eager to be able to master it, that is my goal. I am passionate about helping others reach their full potential!</div>  
-       </div>
-            
-       <div class="quote">"Trust yourself that you can do it and get it." - Baz Lurhmann</div>
-     </h2>
 
-    <div class="snowflake1"></div>
+     <div class="formbox">
+        <form id="form">
+            <label for="fullname">Full Name</label>
+            <input type="text">
+       
+            <label for="email">Email</label>
+            <input type="email">
+       
+                <!-- <input class="messagefield" type="text"  placeholder="Enter Message">  -->
+                <textarea name="" id="message" cols="30" rows="30" placeholder="Enter Message"></textarea> 
+            <!-- </input> -->
+                           
+     
+        <input type="submit" value="Submit!" id="submit"> 
+        </form>
+     </div>
+
+
+     <div class="snowflake1"></div>
     <div class="snowflake2"></div>
     <div class="snowflake3"></div>
     <div class="snowflake4"></div>
@@ -57,6 +62,6 @@
     <div class="snowflake24"></div>
     <div class="snowflake25"></div>
     <div class="snowflake26"></div>
-    
+</body>
 </body>
 </html>
